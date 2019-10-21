@@ -11,9 +11,7 @@ def monopoly_with_second_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  base_hash[:railroads] = {
-    :pieces => {}
-  }
+  base_hash[:railroads].key(:pieces)
 end
 
 def monopoly_with_third_tier
